@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T15:07:43.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="jefzP-ah7ExXjeYLqa4A" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-24T15:25:54.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="5T5j9c6a7rJyafubILOF" version="14.9.2" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,16 +51,10 @@
             <mxPoint x="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="21" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;entryDx=0;entryDy=0;" parent="1" source="13" target="NDtUQRJgqA3HnelDL9pc-59" edge="1">
-          <mxGeometry width="100" height="100" as="geometry">
-            <mxPoint y="100" as="sourcePoint" />
-            <mxPoint x="321" y="795.5999999999999" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="40" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="728.5" y="60" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="45" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0.905;entryY=0.5;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" target="34" edge="1">
+        <mxCell id="45" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0.905;entryY=0.5;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" edge="1">
           <mxGeometry width="100" height="100" as="geometry">
             <mxPoint x="380.5" y="1119.25" as="sourcePoint" />
             <mxPoint x="100" as="targetPoint" />
@@ -72,19 +66,19 @@
         <mxCell id="51" value="当前状态为等待图像传输&lt;br&gt;发送当前图像给GPU(SOC)&lt;br&gt;LVDS(SOC)、网口(GPU)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="640" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="NDtUQRJgqA3HnelDL9pc-55" value="地面发送指令&lt;br&gt;打开相机供电" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="NDtUQRJgqA3HnelDL9pc-55" value="地面发送指令&lt;br&gt;打开相机供电" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="311" y="240" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NDtUQRJgqA3HnelDL9pc-56" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;entryX=0.365;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="NDtUQRJgqA3HnelDL9pc-55">
+        <mxCell id="NDtUQRJgqA3HnelDL9pc-56" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;entryX=0.365;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="NDtUQRJgqA3HnelDL9pc-55" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="210" as="sourcePoint" />
             <mxPoint x="228.81818181818176" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NDtUQRJgqA3HnelDL9pc-57" value="地面发送指令&lt;br&gt;打开相机拍照" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="NDtUQRJgqA3HnelDL9pc-57" value="地面发送指令&lt;br&gt;打开相机拍照" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="241.5" y="390" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NDtUQRJgqA3HnelDL9pc-58" style="entryX=0.095;entryY=0.5;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=0.428;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="13">
+        <mxCell id="NDtUQRJgqA3HnelDL9pc-58" style="entryX=0.095;entryY=0.5;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=0.428;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;" parent="1" target="13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="159.0519999999999" y="320" as="sourcePoint" />
             <mxPoint x="100" y="390" as="targetPoint" />
@@ -93,16 +87,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NDtUQRJgqA3HnelDL9pc-59" value="等待GPU(SOC)处理完成&lt;br&gt;接收处理结果" style="shape=mxgraph.flowchart.document;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="KH3Tu4sWsePQwg5H_GC--51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NDtUQRJgqA3HnelDL9pc-59" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NDtUQRJgqA3HnelDL9pc-59" value="等待GPU(SOC)处理完成&lt;br&gt;接收处理结果" style="shape=mxgraph.flowchart.document;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="790" width="159" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="NDtUQRJgqA3HnelDL9pc-61" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;exitX=0.905;exitY=0.5;exitPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" edge="1" parent="1">
+        <mxCell id="NDtUQRJgqA3HnelDL9pc-61" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;exitX=0.905;exitY=0.5;exitPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" edge="1">
           <mxGeometry width="100" height="100" as="geometry">
             <mxPoint x="384.395" y="680" as="sourcePoint" />
             <mxPoint x="480" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NDtUQRJgqA3HnelDL9pc-62" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;exitX=0.905;exitY=0.5;exitPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;entryX=0.553;entryY=0.889;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="51">
+        <mxCell id="NDtUQRJgqA3HnelDL9pc-62" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;exitX=0.905;exitY=0.5;exitPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;entryX=0.553;entryY=0.889;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="51" edge="1">
           <mxGeometry x="15.11" y="147" width="100" height="100" as="geometry">
             <mxPoint x="399.505" y="827" as="sourcePoint" />
             <mxPoint x="495.11" y="827" as="targetPoint" />
@@ -111,28 +108,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NDtUQRJgqA3HnelDL9pc-63" value="地面发送指令&lt;br&gt;关闭GPU(SOC)供电" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="NDtUQRJgqA3HnelDL9pc-63" value="地面发送指令&lt;br&gt;关闭GPU(SOC)供电" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="240" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NDtUQRJgqA3HnelDL9pc-64" value="地面发送指令&lt;br&gt;关闭相机供电" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="NDtUQRJgqA3HnelDL9pc-64" value="地面发送指令&lt;br&gt;关闭相机供电" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="780.5" y="240" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NDtUQRJgqA3HnelDL9pc-67" value="地面发送指令&lt;br&gt;关闭载荷处理板供电" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="NDtUQRJgqA3HnelDL9pc-67" value="地面发送指令&lt;br&gt;关闭载荷处理板供电" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="709" y="130" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NDtUQRJgqA3HnelDL9pc-69" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NDtUQRJgqA3HnelDL9pc-67" target="40">
+        <mxCell id="NDtUQRJgqA3HnelDL9pc-69" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="NDtUQRJgqA3HnelDL9pc-67" target="40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="970" y="110" as="sourcePoint" />
             <mxPoint x="970" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NDtUQRJgqA3HnelDL9pc-70" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=0.943;exitY=0.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NDtUQRJgqA3HnelDL9pc-63">
+        <mxCell id="NDtUQRJgqA3HnelDL9pc-70" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=0.943;exitY=0.013;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="NDtUQRJgqA3HnelDL9pc-63" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="683.3618181818183" y="200" as="sourcePoint" />
             <mxPoint x="720" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NDtUQRJgqA3HnelDL9pc-71" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=0.23;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NDtUQRJgqA3HnelDL9pc-64">
+        <mxCell id="NDtUQRJgqA3HnelDL9pc-71" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=0.23;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="NDtUQRJgqA3HnelDL9pc-64" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="950" y="190" as="sourcePoint" />
             <mxPoint x="811" y="210" as="targetPoint" />
