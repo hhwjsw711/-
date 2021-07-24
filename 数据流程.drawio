@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T15:20:59.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="20_wlsfVDkSFBRDEls2w" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-24T15:22:40.048Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="0-puwbvHWgPY8uvpUdjt" version="14.9.2" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,6 +23,9 @@
         </mxCell>
         <mxCell id="teyYOHSxg7vn7ohvey4J-55" value="载荷处理板&lt;br&gt;图像数据(像元重组)&lt;br&gt;辅助数据(新增一行)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="34.5" width="150" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="teyYOHSxg7vn7ohvey4J-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teyYOHSxg7vn7ohvey4J-57" target="teyYOHSxg7vn7ohvey4J-72">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="teyYOHSxg7vn7ohvey4J-57" value="GPU(SOC)&lt;br&gt;图像数据(位深转换)&lt;br&gt;图像数据(灰度转换)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="34.5" width="150" height="81" as="geometry" />
@@ -53,6 +56,9 @@
         <mxCell id="teyYOHSxg7vn7ohvey4J-63" value="载荷处理板&lt;br&gt;图像数据(像元重组)&lt;br&gt;辅助数据(新增一行)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="220" width="150" height="81" as="geometry" />
         </mxCell>
+        <mxCell id="teyYOHSxg7vn7ohvey4J-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teyYOHSxg7vn7ohvey4J-64" target="teyYOHSxg7vn7ohvey4J-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="teyYOHSxg7vn7ohvey4J-64" value="GPU(SOC)&lt;br&gt;图像数据(位深转换)&lt;br&gt;图像数据(BGR转换)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="220" width="150" height="81" as="geometry" />
         </mxCell>
@@ -73,6 +79,24 @@
         </mxCell>
         <mxCell id="teyYOHSxg7vn7ohvey4J-67" value="高分" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="220" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="teyYOHSxg7vn7ohvey4J-70" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="teyYOHSxg7vn7ohvey4J-71" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="245" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="teyYOHSxg7vn7ohvey4J-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teyYOHSxg7vn7ohvey4J-72" target="teyYOHSxg7vn7ohvey4J-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="teyYOHSxg7vn7ohvey4J-72" value="GPU(SOC)&lt;br&gt;图像处理(目标检测)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="35" width="150" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="teyYOHSxg7vn7ohvey4J-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teyYOHSxg7vn7ohvey4J-73" target="teyYOHSxg7vn7ohvey4J-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="teyYOHSxg7vn7ohvey4J-73" value="GPU(SOC)&lt;br&gt;图像处理(目标识别)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="219" width="150" height="81" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
