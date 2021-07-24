@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T15:01:13.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="GeOftRj7G5BGdN9yvTdZ" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-24T15:07:43.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="jefzP-ah7ExXjeYLqa4A" version="14.9.2" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="3" value="地面发送指令&lt;br&gt;打开载荷处理板供电" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="130" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="相机源源不断&lt;br&gt;向载荷处理板吐&lt;br&gt;原始图像数据" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="4" value="相机源源不断&lt;br&gt;向载荷处理板吐&lt;br&gt;原始图像数据&lt;br&gt;Cameralink(相机)" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="510" width="159" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5" value="地面发送指令&lt;br&gt;打开GPU(SOC)供电" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
@@ -69,7 +69,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="51" value="当前状态为等待图像传输&lt;br&gt;发送当前图像给GPU(SOC)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="51" value="当前状态为等待图像传输&lt;br&gt;发送当前图像给GPU(SOC)&lt;br&gt;LVDS(SOC)、网口(GPU)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="640" width="150" height="81" as="geometry" />
         </mxCell>
         <mxCell id="NDtUQRJgqA3HnelDL9pc-55" value="地面发送指令&lt;br&gt;打开相机供电" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
