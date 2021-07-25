@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T15:22:40.048Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="0-puwbvHWgPY8uvpUdjt" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-25T15:58:24.194Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="i4UGZQ_b8A1NGUGHBDYJ" version="14.9.2" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="2031" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,81 +21,81 @@
         <mxCell id="51" value="相机&lt;br&gt;图像数据(含辅助数据)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="425" y="35" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-55" value="载荷处理板&lt;br&gt;图像数据(像元重组)&lt;br&gt;辅助数据(新增一行)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-55" value="载荷处理板&lt;br&gt;图像数据(像元重组)&lt;br&gt;辅助数据(新增一行)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="34.5" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teyYOHSxg7vn7ohvey4J-57" target="teyYOHSxg7vn7ohvey4J-72">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="teyYOHSxg7vn7ohvey4J-57" target="teyYOHSxg7vn7ohvey4J-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-57" value="GPU(SOC)&lt;br&gt;图像数据(位深转换)&lt;br&gt;图像数据(灰度转换)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-57" value="GPU(SOC)&lt;br&gt;图像数据(位深转换)&lt;br&gt;图像数据(灰度转换)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="34.5" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-58" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="teyYOHSxg7vn7ohvey4J-57">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-58" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="teyYOHSxg7vn7ohvey4J-57" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="790" y="75" as="sourcePoint" />
             <mxPoint x="855" y="75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-59" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-59" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="245.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-60" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="teyYOHSxg7vn7ohvey4J-59" target="teyYOHSxg7vn7ohvey4J-62">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-60" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="teyYOHSxg7vn7ohvey4J-59" target="teyYOHSxg7vn7ohvey4J-62" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="335.105" y="415.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-61" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="teyYOHSxg7vn7ohvey4J-62" target="teyYOHSxg7vn7ohvey4J-63">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-61" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="teyYOHSxg7vn7ohvey4J-62" target="teyYOHSxg7vn7ohvey4J-63" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="463.895" y="415.5" as="sourcePoint" />
             <mxPoint x="635" y="260.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-62" value="相机&lt;br&gt;图像数据(含辅助数据)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-62" value="相机&lt;br&gt;图像数据(含辅助数据)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="425" y="220.5" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-63" value="载荷处理板&lt;br&gt;图像数据(像元重组)&lt;br&gt;辅助数据(新增一行)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-63" value="载荷处理板&lt;br&gt;图像数据(像元重组)&lt;br&gt;辅助数据(新增一行)&lt;br&gt;目标经纬度" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="220" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teyYOHSxg7vn7ohvey4J-64" target="teyYOHSxg7vn7ohvey4J-73">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="teyYOHSxg7vn7ohvey4J-64" target="teyYOHSxg7vn7ohvey4J-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-64" value="GPU(SOC)&lt;br&gt;图像数据(位深转换)&lt;br&gt;图像数据(BGR转换)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-64" value="GPU(SOC)&lt;br&gt;图像数据(位深转换)&lt;br&gt;图像数据(BGR转换)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="220" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-65" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="teyYOHSxg7vn7ohvey4J-64">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-65" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="teyYOHSxg7vn7ohvey4J-64" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="790" y="260.5" as="sourcePoint" />
             <mxPoint x="855" y="260.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teyYOHSxg7vn7ohvey4J-66" target="2">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="teyYOHSxg7vn7ohvey4J-66" target="2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-66" value="宽视场" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-66" value="宽视场" style="triangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="35" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teyYOHSxg7vn7ohvey4J-67" target="teyYOHSxg7vn7ohvey4J-59">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="teyYOHSxg7vn7ohvey4J-67" target="teyYOHSxg7vn7ohvey4J-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-67" value="高分" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-67" value="高分" style="triangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="220" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-70" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-70" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="1300" y="60" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-71" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-71" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="1300" y="245" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teyYOHSxg7vn7ohvey4J-72" target="teyYOHSxg7vn7ohvey4J-70">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="teyYOHSxg7vn7ohvey4J-72" target="teyYOHSxg7vn7ohvey4J-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-72" value="GPU(SOC)&lt;br&gt;图像处理(目标检测)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-72" value="GPU(SOC)&lt;br&gt;图像处理(目标检测)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="35" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teyYOHSxg7vn7ohvey4J-73" target="teyYOHSxg7vn7ohvey4J-71">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="teyYOHSxg7vn7ohvey4J-73" target="teyYOHSxg7vn7ohvey4J-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teyYOHSxg7vn7ohvey4J-73" value="GPU(SOC)&lt;br&gt;图像处理(目标识别)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="teyYOHSxg7vn7ohvey4J-73" value="GPU(SOC)&lt;br&gt;图像分割(目标经纬度)&lt;br&gt;图像处理(目标识别)" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="219" width="150" height="81" as="geometry" />
         </mxCell>
       </root>
